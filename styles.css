@@ -1,0 +1,52 @@
+nav {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style: none;
+    margin: 10px;
+    font-size: 30px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#hero{
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.legend{
+    background-color: yellowgreen;
+    height: 70vh;
+    justify-content: space-between;
+
+}
+.legend input{
+    height: 0.5cm;
+}
+#Product-img img{
+    height: 60vh;
+    margin: 20px;
+
+   
+    
+}
+#Product-img {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}

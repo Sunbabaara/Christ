@@ -1,34 +1,40 @@
 nav {
-    background-color: orange;
+    background-color: gray;
     display: flex;
     justify-content: space-between;
+    padding: 10px 100px;
+    color: white;
 }
 ul {
     display: flex;
     flex-direction: row;
-}
-li {
     list-style: none;
-    margin: 10px;
-    font-size: 30px;
-
 }
 a {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
     text-decoration: none;
-    color: black;
+  
 }
+
 #hero{
-    background: yellowgreen;
+    background: #facf5a;
     display: flex;
-    justify-content: center;
+    padding: 10px 100px;
     align-items: center;
     height: 80vh;
+    color: black
 }
 .legend{
-    background-color: yellowgreen;
-    height: 70vh;
+    background-color:#facf5a ;
+    height: 80vh;
     justify-content: space-between;
 
+}
+#pic{
+    height: 80%;
+    padding: 0px 30px;
 }
 .legend input{
     height: 0.5cm;
@@ -36,17 +42,52 @@ a {
 #Product-img img{
     height: 60vh;
     margin: 20px;
-
-   
-    
 }
 #Product-img {
-    background-color: yellowgreen;
+    background-color: #facf5a;
     display: flex;
     justify-content: center;
-
+}
+button{
+    background-color: teal;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    
 }
 body{
     padding: 0%;
     margin: 0%;
+}
+.form-inp{
+    display: grid;
+    grid-gap: 10px;
+}
+#hom{
+display: grid;
+grid-gap: 15px;
+}
+.inp{
+    height: 50px;
+    border-radius: 25px;
+}
+.rights{
+    padding: 0px 30px;
+}
+.mail{
+    color: blue;
+    font-style: italic;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+footer{
+    background-color: violet;
+    padding: 20px 80px;
 }
